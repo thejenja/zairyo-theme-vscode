@@ -1,0 +1,30 @@
+# Node modules
+node_modules/
+*.log
+
+# Build artifacts
+*.vsix
+out/
+dist/
+
+# IDE
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Temp files
+*.tmp
+.cache/
+
+# Screenshots (add your own)
+assets/screenshots/*.png
+!assets/screenshots/.gitkeep

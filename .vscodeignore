@@ -1,0 +1,16 @@
+.vscode/**
+out/**
+src/**
+.gitignore
+.gitattributes
+.vscodeignore
+tsconfig.json
+tslint.json
+*.vsix
+node_modules/**
+*.map
+*.ts
+!*.d.ts
+test/**
+**/test/**
+**/.git/**

@@ -1,0 +1,150 @@
+{
+	"name": "zairyo-themes",
+	"displayName": "Zairyo Themes",
+	"icon": "icon.png",
+	"description": "🎨 20 Zairyo themes — 5 color schemes × 4 variants. by thejenja",
+	"version": "1.0.0",
+	"publisher": "thejenja",
+	"author": "thejenja",
+	"engines": {
+		"vscode": "^1.74.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"zairyo",
+		"umi",
+		"mori",
+		"yuuyake",
+		"bara",
+		"light",
+		"dark",
+		"contrast",
+		"theme",
+		"colorful",
+		"productivity",
+		"minimalism",
+		"accessibility",
+		"5 colors",
+		"tonal",
+		"materials"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "🔮 Zairyo Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/zairyo-dark.json"
+			},
+			{
+				"label": "🔮 Zairyo Dark Contrast",
+				"uiTheme": "vs-dark",
+				"path": "./themes/zairyo-dark-contrast.json"
+			},
+			{
+				"label": "🔮 Zairyo Light",
+				"uiTheme": "vs",
+				"path": "./themes/zairyo-light.json"
+			},
+			{
+				"label": "🔮 Zairyo Light Contrast",
+				"uiTheme": "vs",
+				"path": "./themes/zairyo-light-contrast.json"
+			},
+			{
+				"label": "🌊 Zairyo Umi Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/zairyo-umi-dark.json"
+			},
+			{
+				"label": "🌊 Zairyo Umi Dark Contrast",
+				"uiTheme": "vs-dark",
+				"path": "./themes/zairyo-umi-dark-contrast.json"
+			},
+			{
+				"label": "🌊 Zairyo Umi Light",
+				"uiTheme": "vs",
+				"path": "./themes/zairyo-umi-light.json"
+			},
+			{
+				"label": "🌊 Zairyo Umi Light Contrast",
+				"uiTheme": "vs",
+				"path": "./themes/zairyo-umi-light-contrast.json"
+			},
+			{
+				"label": "🌲 Zairyo Mori Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/zairyo-mori-dark.json"
+			},
+			{
+				"label": "🌲 Zairyo Mori Dark Contrast",
+				"uiTheme": "vs-dark",
+				"path": "./themes/zairyo-mori-dark-contrast.json"
+			},
+			{
+				"label": "🌲 Zairyo Mori Light",
+				"uiTheme": "vs",
+				"path": "./themes/zairyo-mori-light.json"
+			},
+			{
+				"label": "🌲 Zairyo Mori Light Contrast",
+				"uiTheme": "vs",
+				"path": "./themes/zairyo-mori-light-contrast.json"
+			},
+			{
+				"label": "🌅 Zairyo Yuuyake Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/zairyo-yuuyake-dark.json"
+			},
+			{
+				"label": "🌅 Zairyo Yuuyake Dark Contrast",
+				"uiTheme": "vs-dark",
+				"path": "./themes/zairyo-yuuyake-dark-contrast.json"
+			},
+			{
+				"label": "🌅 Zairyo Yuuyake Light",
+				"uiTheme": "vs",
+				"path": "./themes/zairyo-yuuyake-light.json"
+			},
+			{
+				"label": "🌅 Zairyo Yuuyake Light Contrast",
+				"uiTheme": "vs",
+				"path": "./themes/zairyo-yuuyake-light-contrast.json"
+			},
+			{
+				"label": "🌹 Zairyo Bara Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/zairyo-bara-dark.json"
+			},
+			{
+				"label": "🌹 Zairyo Bara Dark Contrast",
+				"uiTheme": "vs-dark",
+				"path": "./themes/zairyo-bara-dark-contrast.json"
+			},
+			{
+				"label": "🌹 Zairyo Bara Light",
+				"uiTheme": "vs",
+				"path": "./themes/zairyo-bara-light.json"
+			},
+			{
+				"label": "🌹 Zairyo Bara Light Contrast",
+				"uiTheme": "vs",
+				"path": "./themes/zairyo-bara-light-contrast.json"
+			}
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/thejenja/zairyo-theme-vscode"
+	},
+	"bugs": {
+		"url": "https://github.com/thejenja/zairyo-theme-vscode/issues"
+	},
+	"homepage": "https://github.com/thejenja/zairyo-theme-vscode/blob/main/README.md",
+	"qna": "marketplace",
+	"galleryBanner": {
+		"color": "#1C1B1F",
+		"theme": "dark"
+	}
+}
