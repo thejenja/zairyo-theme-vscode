@@ -754,6 +754,136 @@
 			"name": "Semantic Namespaces",
 			"scope": ["namespace"],
 			"settings": { "foreground": "#FFB1C8" }
+		},
+		{
+			"name": "YAML Keys",
+			"scope": ["entity.name.tag.yaml"],
+			"settings": { "foreground": "#FFB1C8" }
+		},
+		{
+			"name": "JSON Keys",
+			"scope": ["support.type.property-name.json"],
+			"settings": { "foreground": "#E5BDC7" }
+		},
+		{
+			"name": "CSS Property Names",
+			"scope": ["support.type.property-name.css"],
+			"settings": { "foreground": "#FFB1C8" }
+		},
+		{
+			"name": "CSS Property Values",
+			"scope": ["support.constant.property-value.css"],
+			"settings": { "foreground": "#EFB8C8" }
+		},
+		{
+			"name": "CSS Selectors",
+			"scope": ["entity.name.tag.css", "entity.other.attribute-name"],
+			"settings": { "foreground": "#FFB4AB" }
+		},
+		{
+			"name": "Python Function Definitions",
+			"scope": ["entity.name.function.python"],
+			"settings": { "foreground": "#E5BDC7" }
+		},
+		{
+			"name": "Python Self",
+			"scope": ["variable.language.self.python"],
+			"settings": { "foreground": "#ECE0E1" }
+		},
+		{
+			"name": "JavaScript This",
+			"scope": ["variable.language.this.js"],
+			"settings": { "foreground": "#ECE0E1" }
+		},
+		{
+			"name": "JavaScript Template Strings",
+			"scope": ["string.template"],
+			"settings": { "foreground": "#EFB8C8" }
+		},
+		{
+			"name": "Regex",
+			"scope": ["string.regexp"],
+			"settings": { "foreground": "#88D8E3" }
+		},
+		{
+			"name": "Escape Characters",
+			"scope": ["constant.character.escape"],
+			"settings": { "foreground": "#88D8E3" }
+		},
+		{
+			"name": "Semantic - Classes",
+			"scope": ["class"],
+			"settings": { "foreground": "#FADBE2" }
+		},
+		{
+			"name": "Semantic - Enums",
+			"scope": ["enum"],
+			"settings": { "foreground": "#FADBE2" }
+		},
+		{
+			"name": "Semantic - Interfaces",
+			"scope": ["interface"],
+			"settings": { "foreground": "#FADBE2" }
+		},
+		{
+			"name": "Semantic - Functions",
+			"scope": ["function"],
+			"settings": { "foreground": "#E5BDC7" }
+		},
+		{
+			"name": "Semantic - Parameters",
+			"scope": ["parameter"],
+			"settings": { "foreground": "#ECE0E1" }
+		},
+		{
+			"name": "Semantic - Variables",
+			"scope": ["variable"],
+			"settings": { "foreground": "#ECE0E1" }
+		},
+		{
+			"name": "Semantic - Namespaces",
+			"scope": ["namespace"],
+			"settings": { "foreground": "#FFB1C8" }
+		},
+		{
+			"name": "Markup Headings",
+			"scope": ["markup.heading"],
+			"settings": { "foreground": "#FFB1C8", "fontStyle": "bold" }
+		},
+		{
+			"name": "Markup Bold",
+			"scope": ["markup.bold"],
+			"settings": { "fontStyle": "bold" }
+		},
+		{
+			"name": "Markup Italic",
+			"scope": ["markup.italic"],
+			"settings": { "fontStyle": "italic" }
+		},
+		{
+			"name": "Markup Links",
+			"scope": ["markup.underline.link"],
+			"settings": { "foreground": "#E5BDC7" }
+		},
+		{
+			"name": "Markup Code",
+			"scope": ["markup.inline.raw"],
+			"settings": { "foreground": "#EFB8C8" }
+		},
+		{
+			"name": "Diff Inserted",
+			"scope": ["markup.inserted"],
+			"settings": { "foreground": "#A8DAB5" }
+		},
+		{
+			"name": "Diff Deleted",
+			"scope": ["markup.deleted"],
+			"settings": { "foreground": "#FFB4AB" }
+		},
+		{
+			"name": "Diff Changed",
+			"scope": ["markup.changed"],
+			"settings": { "foreground": "#FFB1C8" }
 		}
 	]
 }

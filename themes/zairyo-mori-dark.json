@@ -817,6 +817,101 @@
 			"name": "Semantic - Namespaces",
 			"scope": ["namespace"],
 			"settings": { "foreground": "#88D890" }
+		},
+		{
+			"name": "YAML Keys",
+			"scope": ["entity.name.tag.yaml"],
+			"settings": { "foreground": "#88D890" }
+		},
+		{
+			"name": "JSON Keys",
+			"scope": ["support.type.property-name.json"],
+			"settings": { "foreground": "#A0CFD5" }
+		},
+		{
+			"name": "CSS Property Names",
+			"scope": ["support.type.property-name.css"],
+			"settings": { "foreground": "#88D890" }
+		},
+		{
+			"name": "CSS Property Values",
+			"scope": ["support.constant.property-value.css"],
+			"settings": { "foreground": "#E6C470" }
+		},
+		{
+			"name": "CSS Selectors",
+			"scope": ["entity.name.tag.css", "entity.other.attribute-name"],
+			"settings": { "foreground": "#FFB4AB" }
+		},
+		{
+			"name": "Python Function Definitions",
+			"scope": ["entity.name.function.python"],
+			"settings": { "foreground": "#A0CFD5" }
+		},
+		{
+			"name": "Python Self",
+			"scope": ["variable.language.self.python"],
+			"settings": { "foreground": "#E2E3DD" }
+		},
+		{
+			"name": "JavaScript This",
+			"scope": ["variable.language.this.js"],
+			"settings": { "foreground": "#E2E3DD" }
+		},
+		{
+			"name": "JavaScript Template Strings",
+			"scope": ["string.template"],
+			"settings": { "foreground": "#E6C470" }
+		},
+		{
+			"name": "Regex",
+			"scope": ["string.regexp"],
+			"settings": { "foreground": "#88D8E3" }
+		},
+		{
+			"name": "Escape Characters",
+			"scope": ["constant.character.escape"],
+			"settings": { "foreground": "#88D8E3" }
+		},
+		{
+			"name": "Markup Headings",
+			"scope": ["markup.heading"],
+			"settings": { "foreground": "#88D890", "fontStyle": "bold" }
+		},
+		{
+			"name": "Markup Bold",
+			"scope": ["markup.bold"],
+			"settings": { "fontStyle": "bold" }
+		},
+		{
+			"name": "Markup Italic",
+			"scope": ["markup.italic"],
+			"settings": { "fontStyle": "italic" }
+		},
+		{
+			"name": "Markup Links",
+			"scope": ["markup.underline.link"],
+			"settings": { "foreground": "#A0CFD5" }
+		},
+		{
+			"name": "Markup Code",
+			"scope": ["markup.inline.raw"],
+			"settings": { "foreground": "#E6C470" }
+		},
+		{
+			"name": "Diff Inserted",
+			"scope": ["markup.inserted"],
+			"settings": { "foreground": "#A8DAB5" }
+		},
+		{
+			"name": "Diff Deleted",
+			"scope": ["markup.deleted"],
+			"settings": { "foreground": "#FFB4AB" }
+		},
+		{
+			"name": "Diff Changed",
+			"scope": ["markup.changed"],
+			"settings": { "foreground": "#88D890" }
 		}
 	]
 }

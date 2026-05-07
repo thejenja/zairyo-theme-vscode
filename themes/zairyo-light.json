@@ -819,6 +819,46 @@
 			"name": "Semantic - Namespaces",
 			"scope": ["namespace"],
 			"settings": { "foreground": "#6750A4" }
+		},
+		{
+			"name": "Markup Headings",
+			"scope": ["markup.heading"],
+			"settings": { "foreground": "#6750A4", "fontStyle": "bold" }
+		},
+		{
+			"name": "Markup Bold",
+			"scope": ["markup.bold"],
+			"settings": { "fontStyle": "bold" }
+		},
+		{
+			"name": "Markup Italic",
+			"scope": ["markup.italic"],
+			"settings": { "fontStyle": "italic" }
+		},
+		{
+			"name": "Markup Links",
+			"scope": ["markup.underline.link"],
+			"settings": { "foreground": "#625B71" }
+		},
+		{
+			"name": "Markup Code",
+			"scope": ["markup.inline.raw"],
+			"settings": { "foreground": "#9A82DB" }
+		},
+		{
+			"name": "Diff Inserted",
+			"scope": ["markup.inserted"],
+			"settings": { "foreground": "#A8DAB5" }
+		},
+		{
+			"name": "Diff Deleted",
+			"scope": ["markup.deleted"],
+			"settings": { "foreground": "#FFB4AB" }
+		},
+		{
+			"name": "Diff Changed",
+			"scope": ["markup.changed"],
+			"settings": { "foreground": "#6750A4" }
 		}
 	]
 }

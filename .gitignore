@@ -28,3 +28,5 @@ Thumbs.db
 # Screenshots (add your own)
 assets/screenshots/*.png
 !assets/screenshots/.gitkeep
+
+.kilo
