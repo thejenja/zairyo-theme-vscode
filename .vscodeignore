@@ -15,3 +15,6 @@ test/**
 **/test/**
 **/.git/**
 .kilo/**
+assets/**
+generator/**
+package-lock.json

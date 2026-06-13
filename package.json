@@ -2,10 +2,15 @@
 	"name": "zairyo-color-themes",
 	"displayName": "Zairyō Themes",
 	"icon": "icon.png",
-	"description": "🎨 20 Zairyō themes — 5 color schemes × 4 variants. by thejenja",
-	"version": "1.2.1",
+	"description": "🎨 36 Zairyō themes — 9 color schemes × 4 variants. by thejenja",
+	"version": "1.3.0",
 	"publisher": "thejenja",
 	"author": "thejenja",
+	"scripts": {
+		"generate": "node generator/build.mjs",
+		"preview": "node generator/preview.mjs",
+		"video": "node generator/video.mjs"
+	},
 	"engines": {
 		"vscode": "^1.74.0"
 	},
@@ -26,7 +31,15 @@
 		"productivity",
 		"minimalism",
 		"accessibility",
-		"5 colors",
+		"kaze",
+		"tsuchi",
+		"yuki",
+		"hana",
+		"wind",
+		"earth",
+		"snow",
+		"flower",
+		"9 colors",
 		"tonal",
 		"materials"
 	],
@@ -131,6 +144,86 @@
 				"label": "🌹 Zairyo Bara Light Contrast",
 				"uiTheme": "vs",
 				"path": "./themes/zairyo-bara-light-contrast.json"
+			},
+			{
+				"label": "🍃 Zairyo Kaze Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/zairyo-kaze-dark.json"
+			},
+			{
+				"label": "🍃 Zairyo Kaze Dark Contrast",
+				"uiTheme": "vs-dark",
+				"path": "./themes/zairyo-kaze-dark-contrast.json"
+			},
+			{
+				"label": "🍃 Zairyo Kaze Light",
+				"uiTheme": "vs",
+				"path": "./themes/zairyo-kaze-light.json"
+			},
+			{
+				"label": "🍃 Zairyo Kaze Light Contrast",
+				"uiTheme": "vs",
+				"path": "./themes/zairyo-kaze-light-contrast.json"
+			},
+			{
+				"label": "🏔️ Zairyo Tsuchi Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/zairyo-tsuchi-dark.json"
+			},
+			{
+				"label": "🏔️ Zairyo Tsuchi Dark Contrast",
+				"uiTheme": "vs-dark",
+				"path": "./themes/zairyo-tsuchi-dark-contrast.json"
+			},
+			{
+				"label": "🏔️ Zairyo Tsuchi Light",
+				"uiTheme": "vs",
+				"path": "./themes/zairyo-tsuchi-light.json"
+			},
+			{
+				"label": "🏔️ Zairyo Tsuchi Light Contrast",
+				"uiTheme": "vs",
+				"path": "./themes/zairyo-tsuchi-light-contrast.json"
+			},
+			{
+				"label": "❄️ Zairyo Yuki Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/zairyo-yuki-dark.json"
+			},
+			{
+				"label": "❄️ Zairyo Yuki Dark Contrast",
+				"uiTheme": "vs-dark",
+				"path": "./themes/zairyo-yuki-dark-contrast.json"
+			},
+			{
+				"label": "❄️ Zairyo Yuki Light",
+				"uiTheme": "vs",
+				"path": "./themes/zairyo-yuki-light.json"
+			},
+			{
+				"label": "❄️ Zairyo Yuki Light Contrast",
+				"uiTheme": "vs",
+				"path": "./themes/zairyo-yuki-light-contrast.json"
+			},
+			{
+				"label": "🌼 Zairyo Hana Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/zairyo-hana-dark.json"
+			},
+			{
+				"label": "🌼 Zairyo Hana Dark Contrast",
+				"uiTheme": "vs-dark",
+				"path": "./themes/zairyo-hana-dark-contrast.json"
+			},
+			{
+				"label": "🌼 Zairyo Hana Light",
+				"uiTheme": "vs",
+				"path": "./themes/zairyo-hana-light.json"
+			},
+			{
+				"label": "🌼 Zairyo Hana Light Contrast",
+				"uiTheme": "vs",
+				"path": "./themes/zairyo-hana-light-contrast.json"
 			}
 		]
 	},
@@ -146,5 +239,10 @@
 	"galleryBanner": {
 		"color": "#1C1B1F",
 		"theme": "dark"
+	},
+	"dependencies": {
+		"@material/material-color-utilities": "^0.2.7",
+		"ffmpeg-static": "^5.3.0",
+		"puppeteer": "^25.1.0"
 	}
 }
